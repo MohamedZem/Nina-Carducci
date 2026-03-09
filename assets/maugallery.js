@@ -1,3 +1,4 @@
+
 (function($) {
   $.fn.mauGallery = function(options) {
     var options = $.extend($.fn.mauGallery.defaults, options);
@@ -99,7 +100,7 @@ modal.show();
   },
 
   prevImage() {
-    let imgs = $(".item-column img");
+    let imgs = $(".item-column img:visible");
     let current = $(".lightboxImage").attr("src");
     let index = imgs.index(imgs.filter(`[src="${current}"]`));
     let prev = index === 0 ? imgs.length - 1 : index - 1;
@@ -107,7 +108,7 @@ modal.show();
   },
 
   nextImage() {
-    let imgs = $(".item-column img");
+    let imgs = $(".item-column img:visible");
     let current = $(".lightboxImage").attr("src");
     let index = imgs.index(imgs.filter(`[src="${current}"]`));
     let next = index === imgs.length - 1 ? 0 : index + 1;
