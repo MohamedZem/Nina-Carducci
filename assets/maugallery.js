@@ -133,12 +133,12 @@ modal.show();
 
   showItemTags(gallery, position, tags) {
     let tagItems =
-      '<li class="nav-item"><span class="nav-link active active-tag" data-images-toggle="all">Tous</span></li>';
+  '<li class="nav-item"><button class="nav-link active active-tag" data-images-toggle="all">Tous</button></li>';
 
     $.each(tags, function(index, value) {
       tagItems += `
         <li class="nav-item">
-          <span class="nav-link" data-images-toggle="${value}">${value}</span>
+          <button class="nav-link" data-images-toggle="${value}">${value}</button>
         </li>`;
     });
 
