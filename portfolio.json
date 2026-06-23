@@ -1,18 +1,60 @@
 {
   "title": "Nina Carducci",
   "description": "Optimisation complète d'un site vitrine de photographe en améliorant les performances, le référencement naturel (SEO) et l'accessibilité. Le projet a consisté à analyser les métriques existantes, corriger les problèmes identifiés et mettre en œuvre les bonnes pratiques du développement web afin d'offrir une expérience utilisateur plus rapide et inclusive.",
+
+
   "technologies": [
     "HTML5",
     "CSS3",
     "JavaScript",
-    "Bootstrap",
-    "SEO",
     "Lighthouse",
+    "SEO",
     "Accessibilité"
   ],
-  "image": "photo/preview.png",
+
+  "image": "photo/preveiw.png",
+
+  "gallery": [
+    "photo/home.png",
+    "photo/gallery.png",
+    "photo/contact.png",
+    "photo/lighthouse.png"
+  ],
+
   "logo": "photo/logo.png",
+
   "demoUrl": "",
+
   "featured": true,
-  "category": "Optimisation web"
+
+  "category": "Optimisation",
+
+  "context": "Projet d'optimisation d'un site existant afin d'améliorer ses performances, son référencement naturel et son accessibilité.",
+
+  "objectives": [
+    "Améliorer les performances.",
+    "Optimiser le référencement naturel.",
+    "Renforcer l'accessibilité.",
+    "Obtenir un excellent score Lighthouse."
+  ],
+
+  "skills": [
+    "SEO",
+    "Accessibilité",
+    "Optimisation d'images",
+    "Performance Web",
+    "Lighthouse"
+  ],
+
+  "results": [
+    "Amélioration significative des scores Lighthouse.",
+    "Temps de chargement réduit.",
+    "Site conforme aux bonnes pratiques."
+  ],
+
+  "improvements": [
+    "Mettre en place un suivi continu des performances.",
+    "Automatiser les audits qualité."
+  ]
 }
+  
